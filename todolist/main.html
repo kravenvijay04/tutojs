@@ -9,16 +9,20 @@
     <h1>TAKE A LIST</h1>
     <input type="text" id="inp">
     <button id="but" onclick="call()">Add</button>
-    <div id="res"></div>
+    <ul id="res">
+        <h3>Your list</h3>
+    </ul>
 
 <script>
     var input=document.getElementById("inp")
     var result= document.getElementById("res")
     function call(){
-        var h1 = document.createElement("h1")
-        h1.textContent=input.value
-        result.append(h1)
-
+        var li = document.createElement("li")
+        li.innerHTML=input.value + "<button onclick='delet(event)'> delete</button>"
+        result.append(li)
+    }
+    function delet(event){
+        event.target.parentElement.remove()
     }
 </script>
 </body>
