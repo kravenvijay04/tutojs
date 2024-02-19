@@ -1,0 +1,14 @@
+table,td,tr,th{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: medium;
+}
+select{
+    padding-right: 5.5rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#gender{
+    padding-right: 6.5rem;
+}
