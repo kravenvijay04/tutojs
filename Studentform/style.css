@@ -12,4 +12,16 @@ table,td,tr,th{
     padding-bottom: 4px;
     background-color: rgb(29, 169, 245);
     color: black;
+    border: none;
+    border-radius: 2px;
 }
+
+#button1{
+    background-color: red;
+    padding-right: 7px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-left: 3px;
+}
+
