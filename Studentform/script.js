@@ -12,7 +12,7 @@ function call(){
     <td>${gender1.value}</td>
     <td>${course1.value}</td>
     <td>${email.value}</td>
-    <td><button onclick="delete1(event)">delete</button></td>`
+    <td><button onclick="delete1(event)" id="button1" >delete</button></td>` 
     result.append(tr)
 }
 function delete1(event){
