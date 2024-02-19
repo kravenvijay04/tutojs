@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <head>
@@ -11,26 +12,26 @@
     </head>
     <table>
         <tr>
-            <td>Name</td>
+            <th>Name</th>
             <td><input type="text" id="Name" name="Name"
                 placeholder="Enter your name" autocomplete="on"
                 required></td>
         </tr>
         <tr>
-            <td>Age</td>
+            <th>Age</th>
             <td><input type="number" id="Age" name="Age"
                 placeholder="Enter your Age" autocomplete="on"
                 required></td>
         </tr>
         <tr>
-            <td>Gender</td>
+            <th>Gender</th>
             <td><select name="Gender" id="gender">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select></td>
         </tr>
         <tr>
-            <td>Course</td>
+            <th>Course</th>
             <td><select name="course" id="Course">
                 <option value="Python">Python</option>
                 <option value="C">C</option>
@@ -39,10 +40,13 @@
             </select></td>
         </tr>
         <tr>
-            <td>E-mail</td>
+            <th>E-mail</th>
             <td><input type="text" id="mail" name="mail"
                 placeholder="Enter your E-mail" autocomplete="on"
                 required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button>Save</button></td>
         </tr>
     </table>
 </body>
