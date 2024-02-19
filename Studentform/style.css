@@ -1,3 +1,4 @@
+
 table,td,tr,th{
     font-family: 'Courier New', Courier, monospace;
     border: 2px solid black;
@@ -24,4 +25,16 @@ table,td,tr,th{
     border-radius: 2px;
     margin-left: 3px;
 }
-
+#table1{
+    position: absolute;
+    left: 41%;
+    top: 15%;
+}
+#res{
+    position: absolute;
+    top: 52%;
+    left: 35%;
+}
+h1{
+    text-align: center;
+}
