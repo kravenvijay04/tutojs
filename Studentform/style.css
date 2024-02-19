@@ -12,3 +12,11 @@ select{
 #gender{
     padding-right: 6.5rem;
 }
+#button{
+    padding-right: 7rem;
+    padding-left: 7rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(29, 169, 245);
+    color: black;
+}
