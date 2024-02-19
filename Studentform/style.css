@@ -4,14 +4,7 @@ table,td,tr,th{
     padding: 5px;
     font-size: medium;
 }
-select{
-    padding-right: 5.5rem;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-#gender{
-    padding-right: 6.5rem;
-}
+
 #button{
     padding-right: 6.65rem;
     padding-left: 6.65rem;
