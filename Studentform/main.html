@@ -25,19 +25,15 @@
         </tr>
         <tr>
             <th>Gender</th>
-            <td><select name="Gender" id="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select></td>
+            <td><input type="Text" id="gender" name="gender"
+                placeholder="Male/Female" autocomplete="on"
+                required></td>
         </tr>
         <tr>
             <th>Course</th>
-            <td><select name="course" id="Course">
-                <option value="Python">Python</option>
-                <option value="C">C</option>
-                <option value="Java">Java</option>
-                <option value="Javascript">Javascript</option>
-            </select></td>
+            <td><input type="Text" id="course" name="course"
+                placeholder="Enter the Course name" autocomplete="on"
+                required></td>
         </tr>
         <tr>
             <th>E-mail</th>
@@ -51,8 +47,12 @@
     </table>
     <table id="res">
         <tr>
-            <td>Name</td>
-            <td>Age</td>
+            <th>Name</th>
+            <th>Age</th>
+            <th>gender</th>
+            <th>Course</th>
+            <th>E-Mail</th>
+            <th>Action</th>
         </tr>
     </table>
     <script src="script.js"></script>
