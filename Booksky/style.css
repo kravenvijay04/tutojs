@@ -12,7 +12,7 @@ body{
   background-size: cover;
 }
 .but{
-    background-color:green;
+    background-color:rgb(255, 81, 0);
     border-radius: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,6 +37,8 @@ h1{
     border-radius: 20px;
     width: 25%;
     margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 h2{
     color: rgb(253, 253, 253);
