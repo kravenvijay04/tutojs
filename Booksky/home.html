@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Booksky</title>
     
 </head>
 <body>
+<div class="head1"><h1><strong>Booksky.com</strong></h1></div>
+<button class="but">+</button>
+<section class="book">
+    <div class="bookcont">
+        <h2>Rings of fire</h2>
+        <h3>Abdul kalam</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quasi blanditiis dolorum ratione
+            voluptate quis ipsa! Optio ex quisquam rem necessitatibus possimus deserunt nisi quibusdam
+            adipisci nulla, architecto, ad repellat!</p>
+            <button class="delbut">delete</button>
+    </div>
+    <div class="overlay"></div>
+    <div class=pop-book>
+        <h1>Add book</h1>
+        <form >
+            <input type="text" placeholder="Book title" id="booktit">
+            <input type="text" placeholder="Book author" id="bookauth">
+            <textarea name="description" id="bookdes" cols="30" rows="10" placeholder="Book description"></textarea>
+        </form>
+        <button id="addbut">Add</button>
+        <button id="cancelbut">cancel</button>
+    </div>
     
+</section>
+<script src="function.js"></script>
 </body>
 </html>
