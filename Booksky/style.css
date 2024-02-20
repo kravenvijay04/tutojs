@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  font-family: "Shantell Sans", cursive;
+  background-image: url(img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.but{
+    background-color:green;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 8%;
+    right: 5%;
+    border: none;
+}
+h1{
+    font-size: 230%;
+}
+.head1{
+    padding: 20px;
+    color: rgb(255, 81, 0);
+}
+.bookcont{
+    background-color: rgb(255, 115, 0);
+    padding: 15px;
+    border-radius: 20px;
+    width: 25%;
+    margin: 30px;
+}
+h2{
+    color: rgb(253, 253, 253);
+}
+.delbut{
+    border: none;
+    background-color: black;
+    padding-left: 5px ;
+    padding-top: 3px;
+    padding-bottom:3px ;
+    padding-right: 5px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+}
+.overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.5;
+    display: none;
+}
+.pop-book{
+    background-color: rgb(255, 81, 0) ;
+    width: 35%;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    position: absolute;
+    left: 32%;
+    top: 23%;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+}
+.pop-book input{
+    width: 80%;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    border-bottom: 3px solid black;
+}
+.pop-book textarea{
+    width: 80%;
+    border: 3px solid black;
+    background: transparent;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    
+}
+.pop-book input::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.pop-book textarea::placeholder{
+    color: black;
+    font-size: 20px;
+}
+#addbut{
+    border: none;
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    margin-left: 25px;
+}
+#cancelbut{
+    border: none;
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+}
+
