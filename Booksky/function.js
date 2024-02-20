@@ -19,13 +19,18 @@ cancelbut1.addEventListener("click",function(event){
 var booktitle=document.querySelector("#booktit")
 var bookauthor=document.querySelector("#bookauth")
 var bookdescription=document.querySelector("#bookdes")
+
 addbut2.addEventListener("click",function(event){
     event.preventDefault()
     var div = document.createElement("div")
     div.setAttribute("class","bookcont")
-    div.innerHTML=`<h2>${booktitle.value}</h2>
-    <h3>${bookauthor.value}</h3>
-    <p>${bookdescription.value}</p>
-    <button class="delbut">delete</button>`
+    div.innerHTML=` <h2>${booktitle.value}</h2>
+                    <h3>${bookauthor.value}</h3>
+                    <p>${bookdescription.value}</p>
+                    <button class="delbut" onclick="Deletebook(event)">delete</button>`
     bookshow.append(div)
 })
+
+function Deletebook(event){
+    event.target.parentElement.remove()
+}
