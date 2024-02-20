@@ -10,29 +10,31 @@
     
 </head>
 <body>
+    
 <div class="head1"><h1><strong>Booksky.com</strong></h1></div>
 <button class="but">+</button>
-<section class="book">
+
     <div class="bookcont">
         <h2>Rings of fire</h2>
         <h3>Abdul kalam</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quasi blanditiis dolorum ratione
             voluptate quis ipsa! Optio ex quisquam rem necessitatibus possimus deserunt nisi quibusdam
             adipisci nulla, architecto, ad repellat!</p>
-            <button class="delbut">delete</button>
+            <button class="delbut" onclick="Deletebook(event)">delete</button>
     </div>
-</section>
+
     <div class="overlay"></div>
     <div class=pop-book>
         <h1>Add book</h1>
-        <form >
+        <form>
             <input type="text" placeholder="Book title" id="booktit">
             <input type="text" placeholder="Book author" id="bookauth">
             <textarea name="description" id="bookdes" cols="30" rows="10" placeholder="Book description"></textarea>
-        
-        <button id="addbut">Add</button>
-        <button id="cancelbut">cancel</button></form>
+            <button id="addbut">Add</button>
+            <button id="cancelbut">cancel</button>
+        </form>
     </div>
+
 <script src="function.js"></script>
 </body>
 </html>
