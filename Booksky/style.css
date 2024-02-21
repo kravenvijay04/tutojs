@@ -11,6 +11,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+
 .but{
     background-color:rgb(255, 81, 0);
     border-radius: 100%;
@@ -24,13 +25,16 @@ body{
     right: 5%;
     border: none;
 }
+
 h1{
     font-size: 230%;
 }
+
 .head1{
     padding: 20px;
     color: rgb(255, 81, 0);
 }
+
 .bookcont{
     background-color: rgb(255, 115, 0);
     padding: 15px;
@@ -40,9 +44,11 @@ h1{
     display: inline-block;
     vertical-align: top;
 }
+
 h2{
     color: rgb(253, 253, 253);
 }
+
 .delbut{
     border: none;
     background-color: black;
@@ -54,6 +60,7 @@ h2{
     color: white;
     margin-top: 10px;
 }
+
 .overlay{
     background-color: black;
     height: 100%;
@@ -64,6 +71,7 @@ h2{
     opacity: 0.5;
     display: none;
 }
+
 .pop-book{
     background-color: rgb(255, 81, 0) ;
     width: 35%;
@@ -77,6 +85,7 @@ h2{
     z-index: 1;
     display: none;
 }
+
 .pop-book input{
     width: 80%;
     border: none;
@@ -86,6 +95,7 @@ h2{
     margin-left: 5%;
     border-bottom: 3px solid black;
 }
+
 .pop-book textarea{
     width: 80%;
     border: 3px solid black;
@@ -95,14 +105,17 @@ h2{
     margin-left: 5%;
     
 }
+
 .pop-book input::placeholder{
     color: black;
     font-size: 20px;
 }
+
 .pop-book textarea::placeholder{
     color: black;
     font-size: 20px;
 }
+
 #addbut{
     border: none;
     background-color: black;
@@ -120,12 +133,16 @@ h2{
 #addbut:focus{
     background:rgb(53, 53, 53);
     cursor: pointer;
+    transition: 0.3s;
 }
+
 #cancelbut:hover,
 #cancelbut:focus{
     background:rgb(53, 53, 53);
     cursor: pointer;
+    transition: 0.3s;
 }
+
 #cancelbut{
     border: none;
     background-color: black;
@@ -142,10 +159,12 @@ h2{
 .but:focus{
     background: rgb(248, 107, 41);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .delbut:hover,
 .delbut:focus{
     background:rgb(53, 53, 53);
     cursor: pointer;
+    transition: 0.3s;
 }
