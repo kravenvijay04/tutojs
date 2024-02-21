@@ -10,6 +10,11 @@ addbut1.addEventListener("click",function(){
     bookpopup.style.display="block"
 })
 
+bookoverlay.addEventListener("click",function(){
+    bookoverlay.style.display="none"
+    bookpopup.style.display="none"
+})
+
 cancelbut1.addEventListener("click",function(event){
     event.preventDefault()
     bookoverlay.style.display="none"
